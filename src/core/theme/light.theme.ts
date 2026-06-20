@@ -8,11 +8,15 @@ export const lightTheme = {
     secondary: colors.secondary,
 
     success: colors.success,
-    warning: colors.warning,
+    warning: colors.alert,
     error: colors.error,
-    info: colors.info,
+    info: colors.primary600,
 
     background: colors.background,
     surface: colors.surface,
+
+    "text-primary": colors.textPrimary,
+    "text-secondary": colors.textSecondary,
+    border: colors.border,
   },
 };

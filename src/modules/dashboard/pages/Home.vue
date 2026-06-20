@@ -2,7 +2,7 @@
   <v-container>
     <v-card>
       <v-card-title>
-        <div>{{ t("auth.login.homePage") }}</div>
+        <div class="text-alert">{{ t("auth.login.homePage") }}</div>
       </v-card-title>
 
       <v-btn color="primary"> Primary Button </v-btn>

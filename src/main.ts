@@ -7,6 +7,9 @@ import router from "./router";
 import { i18n } from "@/core/i18n/setup";
 import vuetify from "@/plugins/vuetify";
 
+import "@/assets/styles/tokens.css";
+import "@/assets/styles/utilities.css";
+
 const app = createApp(App);
 
 app.use(createPinia());
