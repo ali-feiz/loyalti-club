@@ -1,0 +1,19 @@
+html,
+body {
+  font-family: "Vazirmatn";
+  margin: 0;
+  padding: 0;
+}
+
+/* ===================== */
+/* CSS Variables (GLOBAL SCOPE) */
+/* ===================== */
+
+html {
+  /* Shadows */
+  --shadow-base: 0px 4px 5px -2px rgba(0, 0, 0, 0.03);
+  --shadow-sm: 0px 1px 2px -1px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0px 6px 10px -3px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0px 10px 20px -5px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0px 20px 30px -10px rgba(0, 0, 0, 0.12);
+}

@@ -1,5 +1,9 @@
 import "vuetify/styles";
 import "@mdi/font/css/materialdesignicons.css";
+import "@fontsource/vazirmatn/400.css";
+import "@fontsource/vazirmatn/500.css";
+import "@fontsource/vazirmatn/600.css";
+import "@fontsource/vazirmatn/700.css";
 
 import { createVuetify } from "vuetify";
 import * as components from "vuetify/components";
@@ -21,6 +25,14 @@ export default createVuetify({
   locale: {
     locale: "fa",
     fallback: "en",
-    rtl: { fa: true },
+    rtl: { fa: true, en: false },
+  },
+
+  defaults: {
+    global: {
+      style: {
+        fontFamily: "Vazirmatn, sans-serif",
+      },
+    },
   },
 });

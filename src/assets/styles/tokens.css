@@ -12,6 +12,7 @@
   --color-primary-700: #5f7396;
   --color-primary-800: #4f6489;
   --color-primary-900: #1f3e63;
+  --color-primary-950: #1c3a63;
 
   --color-primary: var(--color-primary-900);
 

@@ -7,8 +7,10 @@ import router from "./router";
 import { i18n } from "@/core/i18n/setup";
 import vuetify from "@/plugins/vuetify";
 
+import "@/assets/styles/global.css";
 import "@/assets/styles/tokens.css";
 import "@/assets/styles/utilities.css";
+import "@/assets/styles/typography-utilities.css";
 
 const app = createApp(App);
 
